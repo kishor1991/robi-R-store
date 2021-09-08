@@ -1,0 +1,100 @@
+.details_card{
+    background: #FFFFFF;
+    box-shadow: 0px 2px 23px rgba(0, 0, 0, 0.130507);
+    border-radius: 20px;
+    border: none;
+    margin-top: -70px;
+}
+.details_card_header{
+    background: #303030;
+    border-radius: 14px 14px 0px 0px;
+    padding: 20px 15px;
+}
+.details_card_header_info{
+    display: flex;
+    justify-content: space-between;
+}
+.details_card_header_info_text{
+    font-family: myRegularFont;
+    font-style: normal;
+    font-weight: bold;
+    font-size: large;
+    color: #FFFFFF;
+}
+.details_card_info{
+    display: flex;
+    justify-content: space-between;
+}
+.details_card_info_body_text{
+    font-size: medium;
+    font-weight: 400;
+    align-self: center;
+    position: relative;
+}
+.details_Purchase_btn{
+    background: linear-gradient(180deg, #DD4343 0%, #892929 100%);
+    border-radius: 15px;
+    width: 60%;
+    font-family: myRegularFont;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+    color: #FFFFFF;
+    padding: 10px 0;
+    border: none;
+}
+
+.package_details ul {
+    list-style-type: none;
+    padding-left: 5px;
+    margin-left: 1em;
+}
+
+.package_details ul li {
+    font-family: myRegularFont;
+    font-size: medium;
+}
+
+.package_details ul li:before {
+    background-color: #DD4343;
+    content: "";
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 2px;
+    margin-left: -1em;
+    height: 10px;
+    width: 10px;
+}
+.package_details ul li ul {
+    padding-left: 5px;
+}
+.package_details ul li ul li{
+    font-family: myRegularFont;
+    font-size: small;
+}
+.package_details ul li ul li:before{
+    background-color: #5B5B5B;
+    border-radius: 50%;
+    content: "";
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 2px;
+    margin-left: -1em;
+    height: 5px;
+    width: 5px;
+}
+
+@media (max-width: 767px) {
+    .details_card_header_info_text{
+        font-size: medium;
+    }
+}
+@media (max-width: 567px) {
+    .details_card_header_info_text{
+        font-size: small;
+    }
+    .details_card_info_body_text{
+        font-size: x-small;
+    }
+}

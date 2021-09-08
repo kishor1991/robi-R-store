@@ -1,0 +1,110 @@
+.banner_section{
+    width: 100%;
+    height: 200px;
+    background-image: url("../../assets/images/bannerbg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner_section_heading{
+    font-family: myRegularFont;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+/*card*/
+.package_card{
+    background: #FFFFFF;
+    box-shadow: 0px 2px 23px rgba(0, 0, 0, 0.130507);
+    border-radius: 20px 20px 0px 0px;
+}
+.package_card_header{
+    background: linear-gradient(180deg, #DD4343 0%, #A82626 100%);
+    border-radius: 20px 20px 0px 0px;
+    padding: 15px 10px;
+}
+.package_card_heading{
+    font-family: myRegularFont;
+    font-style: normal;
+    font-weight: bold;
+    font-size: xx-large;
+    color: #FFFFFF;
+}
+.package_card_sub_heading{
+    font-family: myRegularFont;
+    font-style: normal;
+    font-weight: 600;
+    font-size: medium;
+    color: #FFFFFF;
+}
+.package_card_body{
+    padding: 10px 25px;
+}
+.package_card_info{
+    display: flex;
+    justify-content: space-between;
+}
+.package_card_info_text{
+    font-size: medium;
+    font-weight: 400;
+}
+.package_card_info_body_text{
+    font-size: medium;
+    font-weight: 400;
+    align-self: center;
+    position: relative;
+}
+.duration{
+    width: 200px;
+    position: absolute;
+    color: #FF1313;
+    font-size: x-small;
+    right: 0;
+    text-align: right;
+}
+.Purchase_btn{
+    background: linear-gradient(180deg, #DD4343 0%, #892929 100%);
+    border-radius: 15px;
+    width: 100%;
+    font-family: myRegularFont;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+    color: #FFFFFF;
+    padding: 10px 0;
+    border: none;
+}
+.Details_btn{
+    background: linear-gradient(180deg, #DD4343 0%, #9A1B1B 100%);
+    border-radius: 15px;
+    width: 100%;
+    font-family: myRegularFont;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+    color: #FFFFFF;
+    padding: 10px 0;
+    border: none;
+}
+
+/*card*/
+
+@media (max-width: 567px) {
+    .package_card_info_text{
+        font-size: x-small;
+    }
+    .package_card_info_body_text{
+        font-size: x-small;
+    }
+    .duration{
+        font-size: xx-small;
+    }
+}
